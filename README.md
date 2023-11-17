@@ -42,6 +42,9 @@ Nuestro proyecto web tiene como objetivo desarrollar un sitio web interactivo y 
 - Fronted: Figma, HTML, CSS, JavaScript
 - Backend: PHP, MySQL
 
+### Diseño del fronted
+[Cafeteria-Bryben](https://www.figma.com/file/9TfKFMGkCFPJihrZy8k6pp/Cafeter%C3%ADa?type=design&node-id=39%3A58&mode=design&t=ocXO2IddxThTE1dX-1)
+
 ### Integrantes: 
 - [Cetzal Ceme Bryan Emmanuel](https://github.com/BryanCetzal/)
 - [Tun Ek Bennen Alexandre](https://github.com/Benn7n/)
