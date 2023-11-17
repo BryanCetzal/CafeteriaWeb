@@ -30,3 +30,9 @@ Nuestro proyecto web tiene como objetivo desarrollar un sitio web interactivo y 
 ### Tecnologias y herramientas usadas
 - Fronted: Figma, HTML, CSS, JavaScript
 - Backend: PHP, MySQL
+
+### Integrantes: 
+- [Cetzal Ceme Bryan Emmanuel](https://github.com/BryanCetzal/)
+- [Tun Ek Bennen Alexandre](https://github.com/BryanCetzal/)
+- Rajon Christo
+- Rosado Valle Diego Alexander
