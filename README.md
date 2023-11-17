@@ -26,6 +26,17 @@ Nuestro proyecto web tiene como objetivo desarrollar un sitio web interactivo y 
 -	Deben poder calcular el costo total del pedido.
 
 ### Requisitos No funcionales  
+1.	Usabilidad
+-	El sistema debe ser fácil de usar y comprender.
+2.	Disponibilidad
+-	El sistema debe estar disponible cuando sea necesario. 
+3.	Seguridad
+-	El sistema debe estar protegido ante accesos no autorizados.
+4.	Compatibilidad
+-	Se podrá visualizar de manera correcta tanto en dispositivos de escritorio y móviles.
+5.	Diseño:
+-	La página web contará con un diseño agradable.
+
 
 ### Tecnologias y herramientas usadas
 - Fronted: Figma, HTML, CSS, JavaScript
