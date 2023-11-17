@@ -33,6 +33,6 @@ Nuestro proyecto web tiene como objetivo desarrollar un sitio web interactivo y 
 
 ### Integrantes: 
 - [Cetzal Ceme Bryan Emmanuel](https://github.com/BryanCetzal/)
-- [Tun Ek Bennen Alexandre](https://github.com/BryanCetzal/)
+- [Tun Ek Bennen Alexandre](https://github.com/Benn7n/)
 - Rajon Christo
 - Rosado Valle Diego Alexander
