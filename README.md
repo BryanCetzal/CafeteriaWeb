@@ -26,13 +26,27 @@ Nuestro proyecto web tiene como objetivo desarrollar un sitio web interactivo y 
 -	Deben poder calcular el costo total del pedido.
 
 ### Requisitos No funcionales  
+1.	Usabilidad
+-	El sistema debe ser fácil de usar y comprender.
+2.	Disponibilidad
+-	El sistema debe estar disponible cuando sea necesario. 
+3.	Seguridad
+-	El sistema debe estar protegido ante accesos no autorizados.
+4.	Compatibilidad
+-	Se podrá visualizar de manera correcta tanto en dispositivos de escritorio y móviles.
+5.	Diseño:
+-	La página web contará con un diseño agradable.
+
 
 ### Tecnologias y herramientas usadas
 - Fronted: Figma, HTML, CSS, JavaScript
 - Backend: PHP, MySQL
 
+### Diseño del fronted
+[Cafeteria-Bryben](https://www.figma.com/file/9TfKFMGkCFPJihrZy8k6pp/Cafeter%C3%ADa?type=design&node-id=39%3A58&mode=design&t=ocXO2IddxThTE1dX-1)
+
 ### Integrantes: 
 - [Cetzal Ceme Bryan Emmanuel](https://github.com/BryanCetzal/)
-- [Tun Ek Bennen Alexandre](https://github.com/BryanCetzal/)
-- Rajon Christo
-- Rosado Valle Diego Alexander
+- [Tun Ek Bennen Alexandre](https://github.com/Benn7n/)
+- [Rajon Polanco Christopher Arturo](https://github.com/ChrisARP12)
+- [Rosado Valle Diego Alexander](https://github.com/rosadod299)
