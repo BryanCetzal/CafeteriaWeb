@@ -1,7 +1,7 @@
-#Descripcion de la Base de datos usada en la cafeteria
+# Descripcion de la Base de datos usada en la cafeteria
 
-##Entidades
+## Entidades
 
-##Relaciones
+## Relaciones
 
-##Tablas normalizadas
+## Tablas normalizadas
