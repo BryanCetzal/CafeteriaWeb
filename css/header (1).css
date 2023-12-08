@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-image: url('../img/background.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ffc107; /* Color dorado */
+}
+
+.navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    transition: color 0.3s ease; /* Transición de color */
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ffc107; /* Color dorado al pasar el mouse */
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.profile p {
+    margin: 0 15px;
+}
+
+.btn {
+    padding: 8px 15px;
+    background-color: #ffc107; /* Color dorado */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+.btn:hover {
+    background-color: #e0a800; /* Color dorado más oscuro al pasar el mouse */
+}
+
+.flex-btn {
+    display: flex;
+}
+
+.option-btn,
+.delete-btn {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.option-btn:hover,
+.delete-btn:hover {
+    color: #ffc107; /* Color dorado al pasar el mouse */
+}
+
+.dashboard {
+    text-align: center;
+    margin: 20px;
+}
+
+.heading {
+    color: #333;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: #ffc107; /* Color dorado al pasar el mouse */
+}
+
+.box h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.box p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.btn {
+    padding: 8px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555; /* Color más oscuro al pasar el mouse */
+}
+/* Pruebas*/
+.header{
+    position: sticky;
+    top:0; left:0; right:0;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+ }
+ 
+ .header .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+ }
+ 
+ .header .flex .logo{
+    font-size: 2.5rem;
+    color:var(--black);
+ }
+ 
+ .header .flex .logo span{
+    color:var(--main-color);
+ }
+ 
+ .header .flex .navbar a{
+    margin:0 1rem;
+    font-size: 2rem;
+    color:var(--black);
+ }
+ 
+ .header .flex .navbar a:hover{
+    color:var(--main-color);
+    text-decoration: underline;
+ }
+ 
+ .header .flex .icons div{
+    margin-left: 1.7rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color:var(--black);
+ }
+ 
+ .header .flex .icons div:hover{
+    color:var(--main-color);
+ }
+ 
+ .header .flex .profile{
+    position: absolute;
+    top:120%; right:2rem;
+    background-color: var(--white);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    padding:2rem;
+    width: 30rem;
+    padding-top: 1.2rem;
+    display: none;
+    animation:fadeIn .2s linear;
+ }
+ 
+ .header .flex .profile.active{
+    display: inline-block;
+ }
+ 
+ .header .flex .profile p{
+    text-align: center;
+    color:var(--black);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+ }
+
