@@ -13,7 +13,7 @@ if(!isset($admin_id)){
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -62,8 +62,24 @@ if(!isset($admin_id)){
          <p>administradores</p>
          <a href="admin_accounts.php" class="btn">Ver administradores</a>
       </div>
+      
+      <div class="box">
+         <?php
+            $select_coffes = $conn -> prepare("SELECT * FROM `products_coffee`");
+            $select_dessert = $conn -> prepare("SELECT * FROM `products_dessert`");
+            $select_additional = $conn -> prepare("SELECT * FROM `products_additional`");
 
+            $select_coffes->execute();
+            $select_dessert->execute();
+            $select_additional->execute();
 
+            $number_of_products = ($select_coffes->rowCount()) + ($select_dessert->rowCount()) + ($select_additional->rowCount())
+
+         ?>
+         <h3><?= $number_of_products; ?></h3>
+         <p>Productos</p>
+         <a href="productos_admin.php" class="btn">Ver productos</a>
+      </div>
    </div>
 
 </section>

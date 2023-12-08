@@ -73,21 +73,10 @@ if(isset($_POST['submit'])){
       <input type="password" name="old_pass" placeholder="Contraseña anterior" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="new_pass" placeholder="Nueva contraseña" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="confirm_pass" placeholder="Confirma la nueva contraseña" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="submit" value="update now" class="btn" name="submit">
+      <input type="submit" value="Actualizar datos" class="btn" name="submit">
    </form>
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
 
 <script src="../js/admin_script.js"></script>
    
