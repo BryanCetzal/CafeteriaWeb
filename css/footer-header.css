@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Sansita+Swashed&family=Satisfy&display=swap');
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+*/
+
+/* ----- ********************************* ----- */
+/* ------------- ESTILOS GENERALES ------------- */
+/* ----- ********************************* ----- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    
+}
+img{
+    max-width: 100%;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ----- ********************************* ----- */
+/* ----------- SECCIÓN DE ENCABEZADO ----------- */
+/* ----- ********************************* ----- */
+
+.header{
+    background: url(../img/Encabezado.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 120vh;
+    margin-top: -30vh;
+    padding: 50px 0 0 0;
+    width: 100%;
+}
+
+.menu_contenedor{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 40px rgba(0,0,0,1);
+}
+
+/* ----- CSS LOGO ----- */
+
+.logo_contenedor{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.logoblanco, .logodorado{
+    position: absolute;
+    /*color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;*/
+    height: auto;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.5s ease;
+}
+
+.logodorado{
+    opacity: 0;
+}
+
+.logoblanco:hover{
+    opacity: 0;
+}
+.logodorado:hover{
+    opacity: 100%;
+}
+
+/* ----- CSS BARRA DE NAVEGACIÓN ----- */
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    display: block;
+    font-weight: 600;
+}
+
+.no_seleccionado a{
+    color: white;
+}
+
+.seleccionado a{
+    color: #C9A538;
+}
+
+.no_seleccionado a:hover{
+    color: #C9A538;
+    transition-duration: 0.5s;
+}
+.menu .navbar ul li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 0.5s;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+
+/* ----- CSS TEXTO DEL HEADER ----- */
+
+.header_txt{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header_txt h1{
+    font-size: 90px;
+    font-family: 'Satisfy',cursive;
+    color: white;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.header_txt p{
+    font-size: 28px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Sansita Swashed';
+}
+
+
+/* ----- ********************************* ----- */
+/* --------- SECCIÓN DEL PIE DE PÁGINA --------- */
+/* ----- ********************************* ----- */
+
+.footer {
+    background: url(../img/Pie.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 85vh;
+    width: 100%;
+    
+}
+
+.footer_contenedor{
+    position: relative;
+    top: 50px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1.2fr 3fr;
+}
+
+.logo_contenedor_footer{
+    text-align: center;
+}
+
+.logo_contenedor_footer img {
+    width: 175px;
+    height: auto;
+    margin-bottom: -32px;
+  }
+
+.logo_contenedor_footer h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Satisfy';
+}
+.datos_titulo{
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.datos_contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+}
+
+.datos ul, .datos p {
+    color: white;
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Estilos adicionales para los íconos y enlaces en la tercera columna */
+.datos_icons ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.icons_contenedor{
+    display: flex;
+    
+}
+.datos .footer_icons {
+    align-items: center;
+    margin-top: 10px;
+}
+
+.datos .footer_contenedor_icons {
+    margin-right: 15px;
+}
+
+.datos .footer_icon {
+    color: white;
+    text-decoration: none;
+}
+
+/* ----- ********************************* ----- */
+/* ------------------ SECCIÓN ------------------ */
+/* ----- ********************************* ----- */
+/* ----- ********************************* ----- */
+/* ----------------- RESPONSIVE ---------------- */
+/* ----- ********************************* ----- */
+
+@media (max-width:991px){
+
+    /* //////////// HEADER //////////// */
+    .header{
+        min-height: 90vh;
+    }
+    /* Menú */
+    .menu{
+        padding: 20px;
+        box-shadow: none;
+        
+    }
+    .menu label{
+        display: initial;
+        
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: auto;
+        right: 0;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 25px;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.5s ease-in-out;
+    }
+
+    .menu .navbar ul li a{
+        color:transparent;
+        display: block;
+        transition: color 0.5s ease-in-out;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+        height: 50px;
+        border-radius: 25px;
+    }
+    #menu:checked ~ .navbar{
+        overflow: visible;
+        max-height: 100vh;
+        
+    }
+    #menu:checked ~ .navbar ul li a {
+        
+        color: white;
+    }
+    #menu:checked ~ .navbar ul li a:hover {
+        color: #C9A538;
+    }
+    .menu .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    /* Contenido del header */
+
+    .header_contenido{
+        padding: 0px 30px;
+    }
+    .header_txt h1{
+        font-size: 70px;
+    }
+    .header_txt p{
+        font-size: 22px;
+    }
+    .header_txt{
+        margin-top: 100px;
+    }
+
+
+    /* //////////// FOOTER //////////// */
+    .footer{
+        min-height: 70vh;
+        background-size: 2000px;
+    }
+    .footer_contenedor{
+        top: 25px;
+    }
+
+    /* Logo */
+    .logo_contenedor_footer img {
+        width: 130px;
+      }
+    .logo_contenedor_footer h1{
+        font-size: 40px;
+    }
+
+    /* Listas */
+    .datos_titulo{
+        margin-bottom: 1cap;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .datos ul li{
+        font-size: 11px;
+    }
+    .datos_contenedor {
+        gap: 20px;
+    }
+    .datos ul, .datos p {
+        padding: 10px;
+        margin: 0;
+    }
+}
+@media (max-width:590px){
+
+    /* //////////// HEADER //////////// */
+    .header{
+        min-height: 100vh;
+        background-size: 2000px;
+        background-position: bottom;
+    }
+    /* Menú */
+    .menu{
+        padding: 25px;
+        box-shadow: none;
+    }
+    /* Contenido del header */
+    .header_txt{
+        margin-top: 0px;
+    }
+    .header_txt h1{
+        font-size: 50px;
+    }
+    .header_txt p{
+        font-size: 17px;
+    }
+
+
+    /* //////////// FOOTER //////////// */
+    .footer{
+        min-height: 80vh;
+        background-size: 1500px;
+        background-position: top;
+        }
+    .footer_contenedor{
+        top: 0;
+        display: block;
+        width: 100%;
+    }
+    /* Logo */
+    .logo_contenedor_footer{
+        margin-top: 75px;
+    }
+    .logo_contenedor_footer img {
+        width: 130px;
+      }
+    .logo_contenedor_footer h1{
+        font-size: 40px;
+    }
+    .datos_titulo{
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    /* Listas */
+    .datos ul li{
+        font-size: 13px;
+    }
+    .datos_contenedor {
+        margin-top: 10px;
+        padding: 0 20px;
+        gap: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .datos_titulo{
+        margin-bottom: 0;
+    }
+
+    /* Iconos */
+
+    .icons_contenedor{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .datos .footer_contenedor_icons{
+        margin-right: 0;
+    }
+
+    .icons_contenedor a{
+        font-size: 15px;
+    }
+}

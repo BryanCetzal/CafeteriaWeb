@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 75%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+    background-color: #fff;
+    margin: 20px auto 20px auto;
+}
+
+.card-especial {
+    width: 75%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+    background-color: #fff;
+    margin: 20px auto 20px auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+}
+
+.card-content {
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-size: 22px;
+    color: #666;
+}
+
+.emphasis {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.card-enlace {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.titulo-carousel{
+    text-align: center;
+    font-size: 24px;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.carousel-control-button {
+    cursor: pointer;
+    background-color: #c69720;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-control-button:hover {
+    background-color: #259ae8;
+}
+
+.description-container{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.titulo-contenido{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.frases{
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+section p{
+    font-size: 24px;
+}
+
+section h2{
+    font-size:28px;
+    margin:10px;
+    padding:5px;
+}

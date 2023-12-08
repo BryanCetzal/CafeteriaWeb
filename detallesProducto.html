@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <!-- Agrega tus enlaces a las hojas de estilo CSS aquí -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .product-details {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #product-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        label {
+            margin-top: 10px;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        #addToCartBtn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #addToCartBtn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product-details">
+            <img id="product-image" src="" alt="Product Image">
+            <h2 id="product-name"></h2>
+            <p id="product-description"></p>
+
+            <form id="product-options-form">
+                <label for="milkType">Tipo de Leche:</label>
+                <select id="milkType" name="milkType" class="form-control">
+                    <option value="Entera">Entera</option>
+                    <option value="Deslactosada">Deslactosada</option>
+                    <option value="Ninguno">Sin leche</option>
+                </select>
+
+                <label for="size">Tamaño:</label>
+                <select id="size" name="size" class="form-control">
+                    <option value="Mediano">Mediano</option>
+                    <option value="Chico">Chico</option>
+                    <option value="Grande">Grande</option>
+                </select>
+
+                <label for="quantity">Cantidad:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1" max="50" class="form-control">
+
+                <p>Precio: $<span id="product-price">0</span></p>
+
+                <button id="addToCartBtn" type="button" class="btn btn-primary">Agregar al Carrito</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/detallesProducto.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
