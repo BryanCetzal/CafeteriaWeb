@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menuStyle.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/menu.js"></script>
+    <title>Cafetería</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu menu_contenedor">
+            <div class="logo_contenedor">
+                <a href="#" class="logoblanco"><img src="img/Logo.png" alt=""></a>
+                <a href="#" class="logodorado"><img src="img/LogoDorado.png" alt=""></a>
+            </div>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li class="no_seleccionado"><a href="index.php">Inicio</a></li>
+                    <li class="seleccionado"><a href="menu.html">Menú</a></li>
+                    <li class="no_seleccionado"><a href="#">Reservaciones</a></li>
+                    <li class="no_seleccionado"><a href="#">Sucursales</a></li>
+                    <li class="no_seleccionado"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li class="no_seleccionado"><a href="update_usuario.php"><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header_contenido contenedor">
+            <div class="header_txt">
+                <h1>El mejor menú</h1>
+            </div>
+        </div>
+    </header>
+
+ <!-- Sección de Cafés -->
+ <section class="menu-area section-gap" id="coffee">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-60 col-lg-10">
+                <div class="title text-center">
+                    <h1 class="mb-10">Cafés</h1>
+                    <p>Prueba nuestros deliciosos cafés</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenedor para mostrar los productos de Cafés -->
+        <div id="coffee-container" class="row"></div>
+    </div>
+</section>
+
+<!-- Sección de Postres -->
+<section class="menu-area section-gap" id="dessert">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-60 col-lg-10">
+                <div class="title text-center">
+                    <h1 class="mb-10">Postres</h1>
+                    <p>Disfruta de nuestros deliciosos postres</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenedor para mostrar los productos de Postres -->
+        <div id="dessert-container" class="row"></div>
+    </div>
+</section>
+
+<!-- Sección de Adicionales -->
+<section class="menu-area section-gap" id="additional">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-60 col-lg-10">
+                <div class="title text-center">
+                    <h1 class="mb-10">Adicionales</h1>
+                    <p>Descubre nuestros irresistibles adicionales</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenedor para mostrar los productos de Adicionales -->
+        <div id="additional-container" class="row"></div>
+    </div>
+</section>
+    
+
+    <footer class="footer">
+        <div class="footer_contenedor">
+            <div class="logo_contenedor_footer">
+                <img src="img/Logo.png" alt="Logo">
+                <h1>Bryben</h1>
+            </div>
+            <div class="datos_contenedor">
+                <div class="datos">
+                    <!-- Primera columna: Horarios -->
+                    <ul>
+                        <li class="datos_titulo">HORARIOS</li>
+                        <li>Lunes - Viernes: 7am - 6pm</li>
+                        <li>Sábado: 8am - 8pm</li>
+                        <li>Domingo: 8am - 6pm</li>
+                    </ul>
+                </div>
+                <div class="datos">
+                    <!-- Segunda columna: Ubicación -->
+                    <ul>
+                        <li class="datos_titulo">ENCUÉNTRANOS EN</li>
+                        <li>Dirección: wadi lorem lorem 4 x 1 col. 8 calles</li>
+                        <li>Tel: 999-999-99-09</li>
+                        <li>Email: alexandretun96@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="datos">
+                    <!-- Tercera columna: Redes sociales -->
+                    <div class="datos_icons">
+                        <ul>
+                            <li class="datos_titulo">SÍGUENOS</li>
+                            <div class="icons_contenedor">
+                                <li>
+                                    <span class="footer_contenedor_icons">
+                                        <a class="fa-brands fa-tiktok footer_icon" href="http://www.tiktok.com/@im.net_"></a>
+                                    </span>
+                                </li> 
+                                <li>
+                                    <span class="footer_contenedor_icons">
+                                        <a class="fa-brands fa-facebook footer_icon" href="http://www.facebook.com"></a>
+                                    </span>
+                                </li> 
+                                <li>
+                                    <span class="footer_contenedor_icons">
+                                        <a class="fa-brands fa-instagram footer_icon" href="http://www.instagram.com"></a>
+                                    </span>
+                                </li>
+                            </div> 
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/d53c56bedb.js" crossorigin="anonymous"></script>
+</body>
+</html>
